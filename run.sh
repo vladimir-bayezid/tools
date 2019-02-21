@@ -214,7 +214,7 @@ do
 		rm -rf run.sh
 		apt update && apt upgrade -y
 		apt install wget -y
-		wget O- https://raw.githubusercontent.com/vladimir-bayezid/tools/master/tools.sh
+		wget O- https://raw.githubusercontent.com/vladimir-bayezid/tools/master/run.sh
 		echo "${hijau}Installasi berhasil"
 		sleep 2
 		exit
