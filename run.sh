@@ -217,7 +217,7 @@ do
 		wget O- https://raw.githubusercontent.com/vladimir-bayezid/tools/master/run.sh
 		echo "${hijau}Installasi berhasil"
 		sleep 2
-		exit
+		sh run.sh
 	elif [ $pil = 't' ] || [ $pil = 'T' ]
 	then
 		clear
@@ -237,7 +237,7 @@ do
 		echo "${biru}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 		echo "${merah}[${kuning}Q${merah}] ${hijau}Exit  ${merah}[${kuning}U${merah}] ${hijau}Update  ${merah}[${kuning}T${merah}] ${hijau}Tentang  ${merah}[${kuning}N${merah}] ${hijau}Next${kuning}"
 		read -p "pilih •> " pil2;
-			if [ $pil2 = '11']
+			if [ $pil2 = '11' ]
 			then
 				clear
 				echo "${biru}menginstall...."
