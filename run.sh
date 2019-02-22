@@ -237,6 +237,23 @@ do
 		echo "${biru}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 		echo "${merah}[${kuning}Q${merah}] ${hijau}Exit  ${merah}[${kuning}U${merah}] ${hijau}Update  ${merah}[${kuning}T${merah}] ${hijau}Tentang  ${merah}[${kuning}N${merah}] ${hijau}Next${kuning}"
 		read -p "pilih •> " pil2;
+			if [ $pil2 = '11']
+			then
+				clear
+				echo "${biru}menginstall...."
+				sleep 1.5
+				cd $HOME
+				apt update && apt upgrade -y
+				pkg install python -y
+				pip install mps_youtube
+				pip install youtube_dl
+				apt install mpv
+				echo "${hijau}Installasi berhasil"
+				sleep 2
+			elif [ $pil2 = 'Q' ] || [ $pil = 'q' ]
+			then
+				exit
+			fi
 	else
 		echo "${merah}Pilihan salah !!!"
 		sleep 3
