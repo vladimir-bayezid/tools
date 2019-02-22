@@ -63,7 +63,7 @@ do
 	echo "${merah}[${kuning}4 ${merah}] ${hijau}Hammer         ${merah}[${kuning}9 ${merah}] ${hijau}Oh My Zsh"
 	echo "${merah}[${kuning}5 ${merah}] ${hijau}Sqlmap         ${merah}[${kuning}10${merah}] ${hijau}Optiva Framework"
 	echo "${biru}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-	echo "${merah}[${kuning}Q${merah}] ${hijau}Exit     ${merah}[${kuning}U${merah}] ${hijau}Update     ${merah}[${kuning}T${merah}] ${hijau}Tentang${kuning}"
+	echo "${merah}[${kuning}Q${merah}] ${hijau}Exit  ${merah}[${kuning}U${merah}] ${hijau}Update  ${merah}[${kuning}T${merah}] ${hijau}Tentang  ${merah}[${kuning}N${merah}]${kuning}"
 	read -p "pilih •> " pil;
 	if [ $pil = '1' ]
 	then 
@@ -225,6 +225,17 @@ do
 		echo " Tim         :    vladimir bayezid"
 		echo " Whatsapp    :    6281930497165"
 		sleep 6
+	elif [ $pil = 'N' ] || [ $pil = 'n' ]
+	then
+		echo "${kuning}###    ###  ######     ##    ##
+####  ####  ##   ##     ##  ##
+## #### ##  ######       ####
+##  #   ##  ##   ##  ##   ##"
+		echo "${biru}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+		echo "${merah}[${kuning}11${merah}] ${hijau}MpsYt"
+		echo "${biru}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+		echo "${merah}[${kuning}Q${merah}] ${hijau}Exit  ${merah}[${kuning}U${merah}] ${hijau}Update  ${merah}[${kuning}T${merah}] ${hijau}Tentang  ${merah}[${kuning}N${merah}]${kuning}"
+		read -p "pilih •> " pil2;
 	else
 		echo "${merah}Pilihan salah !!!"
 		sleep 3
