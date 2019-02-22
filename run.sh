@@ -227,6 +227,7 @@ do
 		sleep 6
 	elif [ $pil = 'N' ] || [ $pil = 'n' ]
 	then
+		clear
 		echo "${kuning}###    ###  ######     ##    ##
 ####  ####  ##   ##     ##  ##
 ## #### ##  ######       ####
